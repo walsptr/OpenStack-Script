@@ -15,8 +15,8 @@ mkdir -p "$output_dir"
 source /path/to/rc/file
 
 # Collect volume list
-volume_log="/tmp/.jah_all_volume.log"
-output_volume_csv="$output_dir/jah-$date-volume.csv"
+volume_log="/tmp/.all_volume.log"
+output_volume_csv="$output_dir/$date-volume.csv"
 openstack volume list --all --long -c ID -c Name -c Status -c Size -c Type -f csv | sed 's/\"//g' | tail -n +2 > "$volume_log"
 
 # Prepare volume CSV header

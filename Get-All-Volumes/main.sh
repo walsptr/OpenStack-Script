@@ -1,8 +1,6 @@
 #!/bin/bash
 
 # Telegram bot token and chat ID
-#telegram_bot_token="6540955721:AAHouyW-bt6qUKGbgyQFod5pwUZtD1o37bU"
-#chat_id="882891040"
 telegram_bot_token="<bot_token>"
 chat_id="<chat_id>"
 

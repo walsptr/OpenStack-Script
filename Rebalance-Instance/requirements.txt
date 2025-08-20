@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+openstacksdk
+pydantic
+python-dotenv
